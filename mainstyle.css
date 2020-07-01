@@ -1,0 +1,149 @@
+/*reset CSS*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Main style*/
+body {
+	background-color:#d8e8f5;
+	color:#303030;
+	font-family:Helvetica, Arial, sans-serif;
+	font-size:0.9em;
+}
+	a 			{color: #3e75b9;text-decoration: none;}
+	a:hover 	{color: #416695;}
+
+
+	h1 			{font-size: 32px;}
+	h2 			{font-size: 28px;}
+	h3 			{font-size: 26px;}
+	h4 			{font-size: 21px;}
+	h5 			{font-size: 18px;}
+	h6 			{font-size: 16px;}
+
+
+p {	line-height:14px;}
+
+strong { font-weight:bold;}
+
+hr {color:#d8e8f5}
+figure	{margin-bottom:10px;}
+
+p, hr, h1, h2, h3, h4, h5, h6, ol, ul {margin-bottom: 20px;}
+
+
+/*nav*/
+nav		    {width: 100%;float:left;background: #197dd1;}
+nav ul 		{margin: 0px;float:left;width:100%; list-style: none;overflow:hidden;padding:10px;text-align:center;}
+nav ul li 	{float: left;margin: 0px;position: relative;}
+nav a 		{color: #fff; display: block;font-size:14px;padding: 14px 20px;text-transform:uppercase;}
+nav a:hover {background:#d8e8f5;}
+
+
+	
+/*** Header ***/
+header 		{width: 920px;float:left;padding:20px; background:#fff;color:#197dd1;} 
+	
+/* Struttura */
+#wrapper 		{width: 960px;margin: 0 auto;background:#fff;}
+#container		{width: 920px;float:left;padding:20px;}
+#content		{width: 620px;float:left;}
+
+/*** Post ***/
+.post 				{padding:0px;}
+.post .entry-title 	{margin-bottom: 20px; line-height:20px;}
+.post .entry-title a{font-weight: bold;letter-spacing: -1px;}
+.post .entry-content{line-height:24px;}
+   
+/*barra laterale */
+aside		{width: 270px;float:right;}
+.widget li 	{line-height:32px;list-style-type:none}	
+
+.clear 		{clear: both;}
+.img		{width:100%;height:auto;margin-bottom:10px;}
+#sitemap    {padding-left:10px;}
+
+footer			{width:920px;float:left;padding:20px;background:#676767;color:#fff;}
+footer a 		{font:14px;color:#fff; line-height:30px;}
+footer a:hover 	{color:#d8e8f5;}
+footer p 		{padding-left:10px;}
+
+@media (min-width: 1200px) 	/* Structure > 1200px */{
+header 		{width: 1130px;float:left;padding:20px;} 
+nav		    {width: 100%;float:left;display:block;}
+aside		{width: 420px;float:right;}
+footer		{width: 1130px;float:left;padding:20px;}
+#wrapper 	{width: 1170px;margin: 0 auto;}
+#container	{width: 1130px;float:left;padding:20px;}
+#content    {width: 670px;float:left;}
+
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+header 		{width: 708px;float:left;padding:20px;} 
+nav		    {width: 100%;float:left;}
+aside		{width: 210px;float:right;}
+#wrapper 		{width: 748px;margin: 0 auto;}
+#container 		{width: 708px;float:left;padding:20px;}
+#content		{width: 470px;float:left;}
+footer			{width: 708px;float:left;padding:20px;}
+}
+
+@media (max-width: 767px) {	
+
+body  {padding:10px;background:#fff;}
+header {width:100%;padding: 20px 0 20px 0px;} 
+nav	{width:100%;float:left;}
+#content 		{width:100%;float:left;}
+aside 		    {width:100%;float:right;padding: 20px 0 0 0px;}
+footer			{width:100%;padding:20px 0 20px 0px;}
+#wrapper 		{width:100%;margin: 0 auto;}
+#container			{width:100%;float:left;padding: 20px 0 0 0;}
+#site-title a {font-size:25px;margin-left:10px;}	
+}
+
+@media (max-width: 480px) {
+	
+	
+}
